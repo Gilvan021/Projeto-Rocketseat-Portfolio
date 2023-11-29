@@ -10,7 +10,7 @@ function toggleMode() {
   if (html.classList.contains("light")) {
 
   // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar2.png")
+    img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute("alt", "Imagem Avatar Modo Claro")
   } else {
    //se tiver sem ligth mode, manter a imagem normal
